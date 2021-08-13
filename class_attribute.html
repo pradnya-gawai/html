@@ -5,24 +5,48 @@
 	<style >
 		body
 		{
-			background-color: rgb(240,240,240);
+			background-color: rgb(207, 230, 229);
 			font-family: cursive;
 		}
 		h2
 		{
 			text-align: center;
 		}
-		
+		img
 		{
 			border-radius: 100%;
+
 		}
+		img:hover
+		{
+			background-color: pink;
+		}
+
+		.name
+		{
+			text-align: center;
+			color: rgb(219, 9, 86);
+ 
+		}
+		.info
+		{
+			text-align: center;
+		}
+		.one
+		{
+			margin-top: 100px;
+		}
+		
+		
 	</style>
 </head>
 <body>
 	<h2>Tokyo Olympics 2021  </h2><hr>
 	<div class="one">
-	<tr>
-	<th><img  src="niraj_chopra.jpg" width="130px;" height="130px;"></th>
+		<table>
+			<thead>
+	<tr class="photo">
+	<th><img  src="niraj_chopra.jpg" width="130px;" height="130px;" style="border-radius: 100%"></th>
 	<th><img  src="Ravi_kumar_dahiya.jpg" width="130px;" height="130px;"></a></th>
 	<th><img  src="mirabai_chanu.jpg" width="130px;" height="130px;"></a></th>
 	<th><img  src="P_V_sindhu.jpg" width="130px;" height="130px;"></a></th>
@@ -30,10 +54,39 @@
     <th><img  src="indian_hocckey_team.jpg" width="130px;" height="130px;"></a></th>
     <th><img  src="Bajrang_Punia.jpg" width="130px;" height="130px;"></a></th>
     <th></a></th>
+</thead>
 </tr>	
-
-	
-	</div>
+<tbody>
+<tr class="name">
+	<td> <a href="https://en.wikipedia.org/wiki/Neeraj_Chopra">Niraj Chopra</a></td>
+	<td> <a href="https://en.wikipedia.org/wiki/Ravi_Kumar_Dahiya">Ravi Kumar Dahiya</a></td>
+	<td><a href="https://en.wikipedia.org/wiki/Saikhom_Mirabai_Chanu">Mrirabai Chanu</a></td>
+	<td><a href="https://en.wikipedia.org/wiki/P._V._Sindhu">P V Sindhu</a></td>
+	<td><a href="https://en.wikipedia.org/wiki/Lovlina_Borgohain">Lovlina Borgohain</a></td>
+	<td><a href="https://en.wikipedia.org/wiki/India_men%27s_national_field_hockey_team">Indian Hockey Team</a></td>
+	<td><a href="https://en.wikipedia.org/wiki/Bajrang_Punia">Bajrang Punia</a></td>
+</tr>
+</tbody>
+<tfoot>
+	<tr class="info">
+		<td>Gold Medal in Men’s Javelin Throw: 87.58
+(First Gold Medalist from India in Olympics 2021 )
+</td>
+		<td>Silver Medal in Men’s 57 kg Wrestling
+</td>
+		<td>Silver Medal in Weight Lifting (Women’s 49kg)
+</td>
+		<td>Bronze Medal in Women’s Single Badminton
+</td>
+		<td>Bronze Medal in Women’s Welterweight Boxing</td>
+		<td>Bronze Medal in Men’s Hockey tournament
+</td>
+		<td>Bronze Medal in Men’s Freestyle 65kg Wrestling
+</td>
+	</tr>
+</tfoot>
+</table>
+</div>
 
 </body>
 </html>	
